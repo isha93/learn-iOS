@@ -503,3 +503,7 @@ func hasilbagi(valueA: Int, valueB: Int) {
 }
 
 pertambahan(valueA: 2, valueB: 3)
+pengurangan(valueA: 2, valueB: 1)
+perkalian(valueA: 3, valueB: 2)
+pembagian(valueA: 4, valueB: 2)
+hasilbagi(valueA: 10, valueB: 2)
