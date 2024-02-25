@@ -440,3 +440,36 @@ func kurang() {
 
 tambah()
 kurang()
+//func tanpa parameter
+func printString() {
+    print("ini adalah function tanpa parameter")
+}
+printString()
+
+//func dengan parameter
+func pertambahan(valueA: Int, valueB: Int) {
+   ///disini adalah body dari function
+    let hasil: Int = valueA + valueB
+    print("hasil dari pertammbahan \(valueA) + \(valueB) = \(hasil)")
+}
+
+//func dengan parameter dan return
+func perkalian(valueA: Int, valueB: Int) -> Int {
+    let hasil: Int = valueA * valueB
+    
+    return hasil
+}
+
+func validation(value: Int) -> Bool {
+    if value % 2 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+if validation(value: 23) {
+    print("genap")
+} else {
+    print("ganjil")
+}
