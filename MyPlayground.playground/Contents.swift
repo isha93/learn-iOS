@@ -425,51 +425,81 @@
 ////var arema = "halo bosque"
 ///
 
-var a: Int = 2
-var b: Int = 5
+//var a: Int = 2
+//var b: Int = 5
+//
+//func tambah() {
+//  let hasil = a + b
+//    print(hasil)
+//}
+//
+//func kurang() {
+//    let hasil = a - b
+//    print(hasil)
+//}
+//
+//tambah()
+//kurang()
+////func tanpa parameter
+//func printString() {
+//    print("ini adalah function tanpa parameter")
+//}
+//printString()
+//
+////func dengan parameter
+//func pertambahan(valueA: Int, valueB: Int) {
+//   ///disini adalah body dari function
+//    let hasil: Int = valueA + valueB
+//    print("hasil dari pertammbahan \(valueA) + \(valueB) = \(hasil)")
+//}
+//
+////func dengan parameter dan return
+//func perkalian(valueA: Int, valueB: Int) -> Int {
+//    let hasil: Int = valueA * valueB
+//    
+//    return hasil
+//}
+//
+//func validation(value: Int) -> Bool {
+//    if value % 2 == 0 {
+//        return true
+//    } else {
+//        return false
+//    }
+//}
+//
+//if validation(value: 23) {
+//    print("genap")
+//} else {
+//    print("ganjil")
+//}
 
-func tambah() {
-  let hasil = a + b
-    print(hasil)
-}
-
-func kurang() {
-    let hasil = a - b
-    print(hasil)
-}
-
-tambah()
-kurang()
-//func tanpa parameter
-func printString() {
-    print("ini adalah function tanpa parameter")
-}
-printString()
-
-//func dengan parameter
+//bikin func pertambahan penguranan perkalian pembagian hasilbagi
+///masing2 memiliki 2 parameter
+///
 func pertambahan(valueA: Int, valueB: Int) {
-   ///disini adalah body dari function
     let hasil: Int = valueA + valueB
-    print("hasil dari pertammbahan \(valueA) + \(valueB) = \(hasil)")
+    print(hasil)
 }
 
-//func dengan parameter dan return
-func perkalian(valueA: Int, valueB: Int) -> Int {
+func pengurangan(valueA: Int, valueB: Int) {
+    let hasil: Int = valueA - valueB
+    print(hasil)
+}
+
+func perkalian(valueA: Int, valueB: Int) {
     let hasil: Int = valueA * valueB
-    
-    return hasil
+    print(hasil)
 }
 
-func validation(value: Int) -> Bool {
-    if value % 2 == 0 {
-        return true
-    } else {
-        return false
-    }
+func pembagian(valueA: Int, valueB: Int) {
+    let hasil: Int = valueA / valueB
+    print(hasil)
 }
 
-if validation(value: 23) {
-    print("genap")
-} else {
-    print("ganjil")
+func hasilbagi(valueA: Int, valueB: Int) {
+    let hasil: Int = valueA % valueB
+    print(hasil)
 }
+
+pertambahan(valueA: 2, valueB: 3)
