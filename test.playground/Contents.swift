@@ -31,7 +31,7 @@ func validation(value: Int) -> Bool {
     }
 }
 
-if validation(value: 23) {
+if validation(value: 20) {
     print("genap")
 } else {
     print("ganjil")
