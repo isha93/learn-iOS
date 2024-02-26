@@ -1,39 +1,31 @@
 
-func printString () {
-    print("ini adalah fungsi mencetak string")
+func prPertambahan (valueA: Int, valueB: Int) {
+    let hasilPertambahan: Int = valueA + valueB
+    print("hasil \(valueA) + \(valueB) = \(hasilPertambahan)")
 }
+prPertambahan(valueA: 10, valueB: 10)
 
-printString()
-
-
-func pertambahan(valueA: Int, valueB: Int) {
-    let hasil: Int = valueA + valueB
-    print("hasil dari pertambahan \(valueA) + \(valueB) = \(hasil)")
+func prPengurangan (valueA: Int, valueB: Int) {
+    let hasilPengurangan: Int = valueA - valueB
+    print("hasil \(valueA) - \(valueB) = \(hasilPengurangan)")
 }
-pertambahan(valueA: 20, valueB: 29)
+prPengurangan(valueA: 10, valueB: 6)
 
-
-func perkalian(valueA: Int, valueB: Int) -> Int {
-    let hasil: Int = valueA * valueB
-    
-    return hasil
+func prPerkalian (valueA: Double, valueB: Double) {
+    let hasilPerkalian: Double = valueA * valueB
+    print("hasil \(valueA) x \(valueB) = \(hasilPerkalian)")
 }
+prPerkalian(valueA: 9.5, valueB: 2.0)
 
-let hasilPengkalian: Int = perkalian(valueA: 200, valueB: 178)
-
-print(hasilPengkalian)
-
-func validation(value: Int) -> Bool {
-    if value % 2 == 0 {
-        return true
-    } else {
-        return false
-    }
+func prPembagian (valueA: Int, valueB: Int) {
+    let hasilPembagian: Int = valueA / valueB
+    print("hasil \(valueA) : \(valueB) = \(hasilPembagian)")
 }
-
-if validation(value: 20) {
-    print("genap")
-} else {
-    print("ganjil")
+prPembagian(valueA: 194, valueB: 2)
+          
+func prSisabagi (valueA: Int, valueB: Int) {
+    let hasilSisabagi: Int = valueA % valueB
+    print("hasil sisa bagi \(valueA) % \(valueB) = \(hasilSisabagi)")
 }
+prSisabagi(valueA: 11, valueB: 2)
 
